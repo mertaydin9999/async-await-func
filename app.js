@@ -15,7 +15,7 @@ const getData = async (number) => {
       console.log("User Data:", userData);
       console.log("Post Data:", postData);
     } else {
-      throw new Error("number bir sayi degil");
+      throw new Error("number bir sayi degillll");
     }
   } catch (error) {
     console.log(error.message);
